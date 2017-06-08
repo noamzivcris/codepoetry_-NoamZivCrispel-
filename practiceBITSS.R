@@ -3,3 +3,5 @@ head(cars)
 
 reg <- lm(dist ~ speed, data = cars)
 summary(reg)
+
+mean <- mean(dist)
